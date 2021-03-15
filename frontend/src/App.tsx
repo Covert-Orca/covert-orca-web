@@ -22,14 +22,14 @@ function App() {
       <div className="grid-container">
         <head>
           <link rel="stylesheet" href="style.css" />
-          <title>Jet Piranha</title>
+          <title>Covert-Orca</title>
         </head>
         <body>
           <div>
             <header className="header">
               <div className="brand">
                 <button onClick = {openMenu}>&#9776; </button>
-                <a href="index.html">Jet Piranha</a>
+                <a href="index.html">Covert-Orca</a>
               </div> 
               <div className="header-links">
                 <Link to="/">Home</Link>
@@ -71,7 +71,7 @@ function App() {
               </Switch>
             </main>
             <footer className="footer">
-              <a href="index.html">&copy; 2021 Jet Piranha</a>
+              <a href="index.html">&copy; 2021 Covert-Orca</a>
             </footer>
           </div>
         </body>
